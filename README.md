@@ -10,7 +10,7 @@ On performing the delete operations on the camera table the CameraNetworks table
 This project built in using Express js , Node js , and DynamoDB 
 
 This project is to perform CRUD operations on Cameras entity
-
+Please run npm i node before using this project
 here is api for camera table
 http://localhost:8000/api/add-camera, method post req.body:{ name, description, url }
 http://localhost:8000/api/get-camera, method post red.body: {name}
