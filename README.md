@@ -1,4 +1,4 @@
-# Bengaluru_Project
+# CRUD-operations-on-Camera-entity
 
 1. Table Cameras fields: name, description, url etc.
 2. Table CameraNetworks fields: name, descriptions, cameras etc.
