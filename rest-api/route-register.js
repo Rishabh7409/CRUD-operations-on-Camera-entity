@@ -15,14 +15,14 @@ const registerRawRouters = (app) => {
   //   addCamera,
   // )
   app.post('/api/add-camera', express.raw({ type: 'application/json' }), addCamera)
-  app.get('/api/get-camera', express.raw({ type: 'application/json' }), findCamera)
+  app.post('/api/get-camera', express.raw({ type: 'application/json' }), findCamera)
   app.get('/api/getall-camera', express.raw({ type: 'application/json' }), allCamera)
   app.put('/api/update-camera', express.raw({ type: 'application/json' }), updateCamera)
   app.delete('/api/delete-camera', express.raw({ type: 'application/json' }), deleteCamera)
 
 
   app.post('/api/add-camera-net', express.raw({ type: 'application/json' }), addCameraNet)
-  app.get('/api/get-camera-net', express.raw({ type: 'application/json' }), findCameraNet)
+  app.post('/api/get-camera-net', express.raw({ type: 'application/json' }), findCameraNet)
   app.get('/api/getall-camera-net', express.raw({ type: 'application/json' }), allCameraNet)
   app.put('/api/update-camera-net', express.raw({ type: 'application/json' }), updateCameraNet)
   app.delete('/api/delete-camera-net', express.raw({ type: 'application/json' }), deleteCameraNet)
